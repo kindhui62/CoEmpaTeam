@@ -81,6 +81,6 @@ The Unity client records audio and uploads a WAV file to a **user-hosted** Whisp
 ```json
 { "text": "<transcription>" }
 
-#### Why local Whisper?
+## Why local Whisper?
 
-We use **local transcription** to avoid sending raw audio to third-party cloud services and to support **offline/LAN deployments**.
+We use local transcription to avoid sending raw audio to third-party cloud services and to support offline/LAN deployments.

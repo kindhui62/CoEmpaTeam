@@ -9,9 +9,24 @@ Some third-party assets/plugins are not redistributed due to licensing.
 - `backend/CoEmpaTeam_backend/` — Python backend (LLM dialogue endpoint)
 - `LICENSE`
 
+## Software Stack (from the paper)
+- **Unity:** Unity3D 2022.3.51f1
+- **Device:** Meta Quest Pro
+- **Backend:** Python 3.10 + FastAPI (deployed on Render)
+- **STT:** Local OpenAI Whisper (speech-to-text)
+- **LLM:** Llama 3.1 8B Instruct (via Chat AI API)
+- **TTS:** ElevenLabs (text-to-speech)
+- **Lip Sync:** Oculus LipSync Unity SDK
+- **Avatars:** Ready Player Me
+- **Gestures:** Mixamo animations
+- **Gaze:** Final IK (Look At IK)
+- **Output Format:** JSON with `speaker`, `text`, `gesture`, `emotion`
+
+
+
 ## Quick Start
 ### Unity
-1. Create a Unity 2022.3 (URP) project.
+1. Create a Unity 2022.3.51f1 project.
 2. Import `CoEmpaTeam_Unity.unitypackage`.
 3. Open the main scene in the imported project.
 4. In the scene Inspector, set:
@@ -44,5 +59,13 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 If you use this repository/package in academic work, please cite our CHI 2026 paper.  
 (Citation details will be updated upon publication.)
 
+```bibtex
+@inproceedings{coempateam2026,
+  title = {CoEmpaTeam: Enhancing Cognitive Empathy using LLM-based Avatars and Dynamic Role Play in Virtual Reality},
+  author = {TBD},
+  booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+  year = {2026}
+}
 
+```
 

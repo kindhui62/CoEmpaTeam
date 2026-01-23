@@ -80,6 +80,7 @@ The Unity client records audio and uploads a WAV file to a **user-hosted** Whisp
 #### Expected response format
 ```json
 { "text": "<transcription>" }
+```
 
 ## Why local Whisper?
 

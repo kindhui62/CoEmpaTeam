@@ -109,11 +109,11 @@ If voice IDs are not configured, TTS may fail or fall back to an unintended defa
 
 If you want to enable FinalIK gaze/look-at:
 
-1) Import FinalIK
+- Import FinalIK
 
 Import FinalIK into your Unity project from your licensed copy.
 
-2) Enable compile flag
+- Enable compile flag
 
 Add the scripting define symbol:
 
@@ -123,7 +123,7 @@ Add:
 
 FINAL_IK
 
-3) Bind scene references
+- Bind scene references
 
 Locate LookAtManager in the scene and bind (in Inspector):
 
@@ -160,13 +160,13 @@ Please ensure your usage complies with Ready Player Me’s terms.
 
 This project relies on third-party libraries/plugins, governed by their own licenses/terms:
 
-FinalIK (optional; not redistributed)
+- FinalIK (optional; not redistributed)
 
-Ready Player Me (avatars + loader tooling)
+- Ready Player Me (avatars + loader tooling)
 
-Mixamo (animation source)
+- Mixamo (animation source)
 
-Meta XR / Oculus XR Plugin (depending on your Unity setup)
+- Meta XR / Oculus XR Plugin (depending on your Unity setup)
 
 ## Citation
 

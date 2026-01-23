@@ -98,3 +98,20 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 !CoEmpaTeam_Unity.unitypackage
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Secrets ----
+.env
+.env.*
+*.key
+
+# ---- Logs / temp ----
+*.log
+.cache/

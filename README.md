@@ -60,11 +60,12 @@ If you use this repository/package in academic work, please cite our CHI 2026 pa
 (Citation details will be updated upon publication.)
 
 ```bibtex
-@inproceedings{coempateam2026,
-  title = {CoEmpaTeam: Enhancing Cognitive Empathy using LLM-based Avatars and Dynamic Role Play in Virtual Reality},
-  author = {TBD},
-  booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
-  year = {2026}
+@inproceedings{kong2026coempateam,
+  title={CoEmpaTeam: Enhancing Cognitive Empathy using LLM-based Avatars and Dynamic Role Play in Virtual Reality},
+  author={Kong, Dehui and Feick, Martin and Liu, Shi and Maedche, Alexander},
+  booktitle={Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+  pages={1--17},
+  year={2026}
 }
 
 ```

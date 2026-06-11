@@ -9,6 +9,10 @@ Some third-party assets/plugins are not redistributed due to licensing.
 - `backend/CoEmpaTeam_backend/` — Python backend (LLM dialogue endpoint)
 - `LICENSE`
 
+- ## Demo Video
+A video of CoEmpaTeam is available on YouTube:  
+[Watch the video](https://www.youtube.com/watch?v=ODzQGc8KNZI)
+
 ## Software Stack (from the paper)
 - **Unity:** Unity3D 2022.3.51f1
 - **Device:** Meta Quest Pro

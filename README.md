@@ -9,7 +9,7 @@ Some third-party assets/plugins are not redistributed due to licensing.
 - `backend/CoEmpaTeam_backend/` — Python backend (LLM dialogue endpoint)
 - `LICENSE`
 
-- ## Demo Video
+## Demo Video
 A video of CoEmpaTeam is available on YouTube:  
 [Watch the video](https://www.youtube.com/watch?v=ODzQGc8KNZI)
 
